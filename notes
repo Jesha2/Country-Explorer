@@ -1,0 +1,8 @@
+Uses React Redux, Api calls ro restCountries, weather API
+download the package and install all dependency.:
+npm i
+npm start
+browser should start with your app
+U
+if you want to print an obj put a comma between them instead of +
+ console.log("currentPotentials  ", currentPotentials);
