@@ -15,8 +15,8 @@ const Symbols = () => {
       </div>
       <div className='stack'>
         <h2>Court of Arms of {currentDisplay.name.official}: </h2>
-      {currentDisplay.courtOfArms
-        ?(<img src= {currentDisplay.courtOfArms.png} alt="courtOfArms" />)
+      {currentDisplay.coatOfArms
+        ?(<img src= {currentDisplay.coatOfArms.png} alt="coatOfArms" />)
         :"No data Found"
       }
       </div>

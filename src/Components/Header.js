@@ -44,10 +44,10 @@ const Header = () => {
 
                             })
                             .catch((err) => {
-                                dispatch(setLoadingFalse());
                                 alert(
                                     "No countries found that match your search!"
                                 );
+                                dispatch(setLoadingFalse());
                             });
                     }}
                 >
